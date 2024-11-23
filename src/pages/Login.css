@@ -1,0 +1,62 @@
+/* Estilo general del body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Fondo con gradiente */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Contenedor del login */
+.login-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+}
+
+/* Título */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Estilo del formulario */
+form {
+  display: flex;
+  flex-direction: column; /* Alineación en columna */
+  gap: 15px;
+}
+
+/* Campos de entrada */
+input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 100%; /* Asegura que los inputs ocupen el 100% del contenedor */
+}
+
+/* Botón de ingresar */
+button {
+  padding: 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efecto hover */
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05); /* Efecto de escala */
+}
